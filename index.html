@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>我的个人网站</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- 添加字体图标 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">CATCHER XIAO</div>
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="active">首页</a>
+                <a href="#about">关于我</a>
+                <a href="#contact">联系方式</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Hello, I'm <span class="highlight">Catcher Xiao</span></h1>
+            <p class="hero-subtitle">Product Manager & E-commerce entrepreneur </p>
+        </div>
+        
+        <!-- 照片轮播 -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="image/img1.jpeg" alt="照片1">
+                </div>
+                <div class="swiper-slide">
+                    <img src="image/img2.jpeg" alt="照片2">
+                </div>
+                <div class="swiper-slide">
+                    <img src="image/img3.jpeg" alt="照片3">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section class="about-section" id="about">
+        <div class="section-container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>关于我</h2>
+                    <p class="subtitle">开心生活，认真工作</p>
+                    <div class="about-description">
+                        <p>阿里、腾讯、百度前产品人，现电商创业，深耕潮玩盲盒</p>
+                    </div>
+                    <div class="skills">
+                        <span class="skill-tag">产品设计</span>
+                        <span class="skill-tag">电商运营</span>
+                        <span class="skill-tag">用户体验</span>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="image/touxiang.JPG" alt="个人头像">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系方式 -->
+    <section class="contact-section" id="contact">
+        <div class="section-container">
+            <h2>联系我</h2>
+            <p class="subtitle">让我们保持联系</p>
+            
+            <div class="contact-cards">
+                <div class="contact-card">
+                    <div class="card-icon">
+                        <i class="fab fa-weixin"></i>
+                    </div>
+                    <h3>微信</h3>
+                    <img src="image/wechat_qr.JPG" alt="微信二维码" class="qr-code">
+                </div>
+                
+                <div class="contact-card">
+                    <div class="card-icon">
+                        <i class="fas fa-feather"></i>
+                    </div>
+                    <h3>飞书</h3>
+                    <img src="image/feishu_qr.JPG" alt="飞书二维码" class="qr-code">
+                </div>
+
+                <div class="contact-card">
+                    <div class="card-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>电话</h3>
+                    <p class="phone-number">+86 132-6023-0926</p>
+                    <a href="tel:+8613260230926" class="phone-link">点击拨打</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-social">
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-weibo"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p class="copyright">© 2024 Catcher Xiao. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
